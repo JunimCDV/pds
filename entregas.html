@@ -1,20 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sorveteria</title>
-    <link rel="stylesheet" tybe="text/css" href="styles.css">
+    <title>localização</title>
 </head>
+<body >
+    <style>
+body {
+  background-image: url('popsicle-154321_1280.png');
+  background-repeat: no-repeat;
+}
 
-<body style="background: #afecfc;">
-    <center><img src="sorveteria do pai 2.0.png" width="30%"
-     alt="inserir descrição da imagem">
-    <h1><a href="index.html"> TELA INICIAL </a>
-    <br><br><a href="produtos.html"> PRODUTOS </a>
-    <br><br><a href="localização.html"> LOCALIZAÇÃO </a>
-    <br><br><a href="entregas.html"> ENTREGAS </a>
-    <br><br><a href="nos.html"> SOBRE NOS </a></center>
- 
+        </style>
+       <h2><a href="index.html">
+        <img src="ice-cream-1544475_1280.png" alt="Headset" class="left"
+       width="50" height="50"> </a>
+
+      
+<fieldset>
+    <h3 align="center">Dados para a compra:</h3>
+    <h6>Dados Pesssoais:</h6>
+    <p>Nome :
+        <input type="text" required name="" size="20" maxlength="40" id="" placeholder=""><br>
+    </p>		
+    <p>Nascimento (dd/mm/aaaa):
+        <input type="data" required name="dia" size="1" maxlength="2"  >/
+        <input type="data" required name="mes" size="1" maxlength="2" >/
+        <input type="data" required name="ano" size="1" maxlength="4"  >
+    </p>
+    <p>Segunda pessoa que va retirar o pedido(opcional):
+        <input type="text"  size="20" maxlength="40"  value=""><br>
+    </p>
+    <p>Telefone de contato: DDD (
+        <input  required  size="1" maxlength="3" >)
+        Tel:<input required size="5" maxlength="8"  >
+        Ramal:<input type="tel" required name="ramal" maxlength="3" ><br>
+    </p>
+    <p>E-mail:
+        <input type="email" required name="email"  maxlength="40" ><br>
+    </p>
+</fieldset>
+<fieldset>
+    <h3>forma de pagamento:</h3>
+        
+        <div class="turno">
+        <p> Turno:<br />
+            <input type="radio" name="turno" value="manhã">Pix <br>
+            <input type="radio" name="turno" value="tarde">maquina móvel<br>
+            <input type="radio" name="turno" value="tarde">Dinheiro<br>
+
+        </p>
+</fieldset>
 </body>
 </html>
